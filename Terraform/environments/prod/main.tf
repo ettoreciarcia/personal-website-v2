@@ -1,4 +1,3 @@
-
 terraform {
   backend "remote" {
     hostname     = "app.terraform.io"
@@ -8,6 +7,7 @@ terraform {
     }
   }
 }
+
 
 provider "aws" {
   region = var.region
