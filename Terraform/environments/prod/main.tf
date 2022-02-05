@@ -14,7 +14,7 @@ provider "aws" {
 }
 
 resource "aws_s3_bucket" "b" {
-  bucket = "ciarciasbucket1"
+  bucket = "ciarciasbucket2"
   acl    = "private"
 
   tags = {
