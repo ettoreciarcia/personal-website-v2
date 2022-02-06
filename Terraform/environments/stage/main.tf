@@ -3,7 +3,7 @@ terraform {
     hostname     = "app.terraform.io"
     organization = "hechaorganization"
     workspaces {
-      name = "site"
+      name = "mysite"
     }
   }
 }
