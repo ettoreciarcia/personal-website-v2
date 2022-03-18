@@ -3,7 +3,7 @@ name: MySite CI
 on:
   push:
     branches:
-      - "master"
+      - "main"
 
 jobs:
   build:
