@@ -17,7 +17,7 @@ const greeting = {
     "A young Cloud Engineer currently working at Epsilon 🚀 Anime and TV seried addicted 📺 The only trips I take are mental ones 🛋️ "
   ),
   resumeLink:
-    "https://ettoreciarcia.com/EttoreCiarciaV2.3.pdf", // Set to empty to hide the button
+    "https://my-certification-ciarcia.s3.eu-west-1.amazonaws.com/EttoreCiarciaV2.3.pdf", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -251,7 +251,7 @@ const achievementSection = {
       footerLink: [
         {
           name: "Certification",
-          url: "https://ciarciasbucket1.s3.eu-west-1.amazonaws.com/Certification/AWS+Certified+Cloud+Practitioner+certificate.pdf"
+          url: "https://my-certification-ciarcia.s3.eu-west-1.amazonaws.com/AWS+Certified+Cloud+Practitioner+certificate.pdf"
         },
         /*
         {
@@ -272,7 +272,7 @@ const achievementSection = {
       footerLink: [
         {
           name: "Certification",
-          url: "https://ciarciasbucket1.s3.eu-west-1.amazonaws.com/Certification/Microsoft_Certified_Professional_Certificate_0.pdf"
+          url: "https://my-certification-ciarcia.s3.eu-west-1.amazonaws.com/Microsoft_Certified_Professional_Certificate_0.pdf"
         }
       ]
     },
