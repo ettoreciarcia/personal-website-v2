@@ -17,7 +17,7 @@ const greeting = {
     "A young Cloud Engineer currently working at Epsilon 🚀 Anime and TV seried addicted 📺 The only trips I take are mental ones 🛋️ "
   ),
   resumeLink:
-    "https://my-certification-ciarcia.s3.eu-west-1.amazonaws.com/EttoreCiarciaV2.3.pdf", // Set to empty to hide the button
+    "https://my-certification-ciarcia.s3.eu-west-1.amazonaws.com/EttoreCiarciaV2.5.pdf", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
