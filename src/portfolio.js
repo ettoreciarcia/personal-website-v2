@@ -17,7 +17,7 @@ const greeting = {
     "A young Cloud Engineer currently working at Epsilon 🚀 Anime and TV seried addicted 📺 The only trips I take are mental ones 🛋️ "
   ),
   resumeLink:
-    "https://my-certification-ciarcia.s3.eu-west-1.amazonaws.com/EttoreCiarciaV2.5.pdf", // Set to empty to hide the button
+    "https://my-certification-ciarcia.s3.eu-west-1.amazonaws.com/EttoreCiarcia.pdf", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -27,9 +27,10 @@ const socialMediaLinks = {
   github: "https://github.com/ettoreciarcia",
   linkedin: "https://www.linkedin.com/in/ettoreciarcia/",
   gmail: "ettoreciarcia.tech@gmail.com",
+  // medium: "https://medium.com/@ettoreciarcia",
   //gitlab: "https://gitlab.com/saadpasta",
   //facebook: "https://www.facebook.com/saad.pasta7",
-  //medium: "https://medium.com/@saadpasta",
+  
   //stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
@@ -170,7 +171,8 @@ const workExperiences = {
       company: "CSC Informatica",
       companylogo: require("./assets/images/cscinformatica.png"),
       date: "May 2019 – Dec 2020",
-      desc: "Management of the IT system of a clinic and several companies. Network troubleshooting, experience Windows and Linux Server. User management and related privileges within Active Directory. Firewall installation and configuration. Backup management with NAS",
+      desc: "Management of the IT system of a clinic and several companies. Network troubleshooting, experience with Windows and Linux Server. User management and related privileges within Active Directory. Firewall installation and configuration. Backup management with NASTechnologies involved: Zyxel, QNAP, Windows Server, Windows Client, Debian",
+      
       //descBullets: [
       //  "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
       //  "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
@@ -181,14 +183,14 @@ const workExperiences = {
       company: "Cloud Side Company",
       companylogo: require("./assets/images/cloudsidecompany.png"),
       date: "Jan 2021 – Feb 2021",
-      desc: "Set up a cloud architecture with API, AWS Lambda, Kafka, MongoDB, Nginx and ELK stack to mapping road accidents. Information gathering using API Calls (OpenWeather) and sensors(Temperature, Humidity) on Raspberry. Filtering and visualization of data collected with ELK stack on AWS"
+      desc: "Set up cloud architecture with API, AWS Lambda, Kafka, MongoDB, Nginx and ELK stack to map road accidents. Data collection using sensors on a RaspberryPi. Technologies involved : ELK Stack, Beats, Unix System, AWS Services(EC2, Lambda), RaspberryPi"
     },
     {
       role: "Cloud Engineer",
       company: "Epsilon",
       companylogo: require("./assets/images/epsilon.png"),
       date: "Nov 2021 – Current",
-      desc: "Support in the migration of an on-premise infrastructure to the AWS cloud using Terraform and CloudFormation templates. Technologies involved : SAM, Lambda, DynamoDB, CloudFormation,OpenAPI ,Terraform, Unix System, EC2, Bash scripting"
+      desc: "Migration of on-premise applications to the cloud and improvement existing cloud architectures performance. Technologies involved: Kubernetes, Docker, Terraform, Unix System, AWS Services (EKS, ECS, ECR, EC2, VPC, S3, CDN, Pipeline Stack, IAM)"
     }
   ]
 };
