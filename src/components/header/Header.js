@@ -39,6 +39,11 @@ function Header() {
           <span className={isDark ? "navicon navicon-dark" : "navicon"}></span>
         </label>
         <ul className={isDark ? "dark-menu menu" : "menu"}>
+        {viewSkills && (
+            <li>
+              <a href="https://medium.com/@ettoreciarcia">Blog</a>
+            </li>
+          )}
           {viewSkills && (
             <li>
               <a href="#skills">Skills</a>
@@ -61,7 +66,7 @@ function Header() {
           )}
           {viewBlog && (
             <li>
-              <a href="#blogs">Blogs</a>
+              <a href="https://medium.com/@ettoreciarcia">Blogs</a>
             </li>
           )}
           {viewTalks && (

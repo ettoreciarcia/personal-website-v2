@@ -12,7 +12,7 @@ npm install
 
 ## Run it locally
 ```
-npm run serve
+npm run start
 ```
 
 ## Create build

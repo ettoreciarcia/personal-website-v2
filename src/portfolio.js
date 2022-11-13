@@ -27,7 +27,7 @@ const socialMediaLinks = {
   github: "https://github.com/ettoreciarcia",
   linkedin: "https://www.linkedin.com/in/ettoreciarcia/",
   gmail: "ettoreciarcia.tech@gmail.com",
-  // medium: "https://medium.com/@ettoreciarcia",
+  medium: "https://medium.com/@ettoreciarcia",
   //gitlab: "https://gitlab.com/saadpasta",
   //facebook: "https://www.facebook.com/saad.pasta7",
   
@@ -43,8 +43,7 @@ const skillsSection = {
   title: "What I do",
   subTitle: "" ,
   skills: [
-    emoji(
-      "❤️ My favourite cloud provider is AWS, I love their services and how they interact with each other "
+    emoji("❤️ I am focused on Kubernetes and Cloud technologies"
     ),
     emoji("💻 Should I pay for an operating system? Wait, I'm writing this line using my Mac "),
     emoji(
@@ -206,34 +205,34 @@ const openSource = {
 // Some big projects you have worked on
 
 const bigProjects = {
-  title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  title: "Projects",
+  subtitle: "",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/honey.png"),
+      projectName: "SkyTrap",
+      projectDesc: "Design and implementation of an AWS Cloud-based active deception infrastructure to simulate a dynamic vulnerable environment and collect information about attackers",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://saayahealth.com/"
+          name: "Check my live presentation",
+          url: "https://www.youtube.com/watch?v=DDVL2ZiZcyg&t=1s"
         }
         //  you can add extra buttons here.
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/mysiste.jpg"),
+      projectName: "This website",
+      projectDesc: "Personal website hosted on s3 bucket with a pipeline. GitHub commit as a trigger for AWS Pipeline and CDN invalidation after each deploy",
       footerLink: [
         {
           name: "Visit Website",
-          url: "http://nextu.se/"
+          url: "https://github.com/ettoreciarcia/mysite/blob/main/MySite-Architecture.png"
         }
       ]
     }
   ],
-  display: false // Set false to hide this section, defaults to true
+  display: true // Set false to hide this section, defaults to true
 };
 
 // Achievement Section
@@ -304,12 +303,12 @@ const blogSection = {
     "With Love for Developing cool stuff, I love to write and teach others what I have learnt.",
   displayMediumBlogs: "true", // Set true to display fetched medium blogs instead of hardcoded ones
   blogs: [
-    {
-      url: "https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-4a8d86d76eae",
-      title: "Win a Google Assistant Tshirt and $200 in Google Cloud Credits",
-      description:
-        "Do you want to win $200 and Google Assistant Tshirt by creating a Google Assistant Action in less then 30 min?"
-    },
+    // {
+    //   url: "https://medium.com/@ettoreciarcia",
+    //   title: "Test",
+    //   description:
+    //     "Do you want to win $200 and Google Assistant Tshirt by creating a Google Assistant Action in less then 30 min?"
+    // },
     {
       url: "https://medium.com/@saadpasta/why-react-is-the-best-5a97563f423e",
       title: "Why REACT is The Best?",
@@ -372,15 +371,15 @@ export {
   greeting,
   socialMediaLinks,
   skillsSection,
-  educationInfo,
   techStack,
   workExperiences,
   openSource,
-  bigProjects,
-  achievementSection,
   blogSection,
+  achievementSection,
   talkSection,
   podcastSection,
+  bigProjects,
+  educationInfo,
   contactInfo,
   twitterDetails
 };
